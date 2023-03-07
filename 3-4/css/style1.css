@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-color: dimgrey;
+    color: white;
+    font-family: serif;
+    margin: 0;
+}
+
+
+.top{
+    height: 200px;
+    border-bottom: 5px solid white;
+}
+
+.bottom{
+    height: 700px;
+}
+
+h1{
+    height: 200px;
+    display: flex; /* どこに対してのflex*/
+    align-items: flex-end;
+    justify-content: center; /* 子要素を中央揃えにする 子要素ってどこ*/
+}
+
+.formtext{
+    margin-top: 50px;
+}
+
+.name{
+    padding-top: 50px;
+}
