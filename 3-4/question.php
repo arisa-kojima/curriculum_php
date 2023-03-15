@@ -36,7 +36,7 @@ $answer3 = $com[1];
 <p>お疲れ様です<!--POST通信で送られてきた名前を出力--><?php echo $my_name;?>さん</p>
 
 <!--フォームの作成 通信はPOST通信で-->
-<form action="answer.php" method="post">
+
 <h2>①ネットワークのポート番号は何番？</h2>
 <!--③ 問題のradioボタンを「foreach」を使って作成する-->
    <!-- foreachは回答の配列を関数1文で選択しを4つ作るために使う -->
